@@ -4,10 +4,10 @@
 
 |   Model   |          Condition          |                            Audio                             | Mel-spectrogram                                              |
 | :-------: | :-------------------------: | :----------------------------------------------------------: | ------------------------------------------------------------ |
-| Flowtron  |       $\sigma = 0.0$        | <audio controls><source src="./data/experiment1/Audio/flowtron_0.0.wav" type="audio/wav">Your browser does not support the audio element.</audio> | <img src="./data/experiment1/Mel-spectrogram/Flowtron_0.0.png" alt="flowtron_0.0" style="zoom: 80%;" /> |
-| Flowtron  |       $\sigma = 0.5$        | <audio controls><source src="./data/experiment1/Audio/flowtron_0.5.wav" type="audio/wav">Your browser does not support the audio element.</audio> | <img src="./data/experiment1/Mel-spectrogram/Flowtron_0.5.png" alt="flowtron_0.5" style="zoom: 80%;" /> |
-| Flowtron  |       $\sigma = 1.0$        | <audio controls><source src="./data/experiment1/Audio/flowtron_1.0.wav" type="audio/wav">Your browser does not support the audio element.</audio> | <img src="./data/experiment1/Mel-spectrogram/Flowtron_1.0.png" alt="flowtron_0.5" style="zoom: 80%;" /> |
-| Tacotron2 | $p \in \{0.45,0.5,0.55 \} $ | <audio controls><source src="./data/experiment1/Audio/tacotron2.wav" type="audio/wav">Your browser does not support the audio element.</audio> | <img src="./data/experiment1/Mel-spectrogram/Tacotron2.png" alt="flowtron_0.5" style="zoom: 80%;" /> |
+| Flowtron  |       $\sigma = 0.0$        | <audio controls><source src="./data/experiment1/Audio/flowtron_0.0.wav" type="audio/wav">Your browser does not support the audio element.</audio> | <img src="./data/experiment1/Mel-spectrogram/Flowtron_0.0.png" alt="flowtron_0.0" style="zoom: 40%;" /> |
+| Flowtron  |       $\sigma = 0.5$        | <audio controls><source src="./data/experiment1/Audio/flowtron_0.5.wav" type="audio/wav">Your browser does not support the audio element.</audio> | <img src="./data/experiment1/Mel-spectrogram/Flowtron_0.5.png" alt="flowtron_0.5" style="zoom: 40%;" /> |
+| Flowtron  |       $\sigma = 1.0$        | <audio controls><source src="./data/experiment1/Audio/flowtron_1.0.wav" type="audio/wav">Your browser does not support the audio element.</audio> | <img src="./data/experiment1/Mel-spectrogram/Flowtron_1.0.png" alt="flowtron_0.5" style="zoom: 40%;" /> |
+| Tacotron2 | $p \in \{0.45,0.5,0.55 \} $ | <audio controls><source src="./data/experiment1/Audio/tacotron2.wav" type="audio/wav">Your browser does not support the audio element.</audio> | <img src="./data/experiment1/Mel-spectrogram/Tacotron2.png" alt="flowtron_0.5" style="zoom: 40%;" /> |
 
 
 
@@ -32,10 +32,10 @@
 
 |   Case    |                           Gaussian                           |                       Mel-spectrogram                        | Audio                                                        |
 | :-------: | :----------------------------------------------------------: | :----------------------------------------------------------: | ------------------------------------------------------------ |
-| sample 1  | <img src="./data/experiment2/Gaussian/0.png" alt="flowtron_0.0" style="zoom: 40%;" /> | <img src="./data/experiment2/Mel-spectrogram/0.png" alt="flowtron_0.0" style="zoom: 80%;" /> | <audio controls><source src="./data/experiment2/Audio/0.wav" type="audio/wav">Your browser does not support the audio element.</audio> |
-| step = 25 | <img src="./data/experiment2/Gaussian/25.png" alt="flowtron_0.0" style="zoom: 40%;" /> | <img src="./data/experiment2/Mel-spectrogram/25.png" alt="flowtron_0.0" style="zoom: 80%;" /> | <audio controls><source src="./data/experiment2/Audio/25.wav" type="audio/wav">Your browser does not support the audio element.</audio> |
-| step = 75 | <img src="./data/experiment2/Gaussian/75.png" alt="flowtron_0.0" style="zoom: 40%;" /> | <img src="./data/experiment2/Mel-spectrogram/75.png" alt="flowtron_0.0" style="zoom: 80%;" /> | <audio controls><source src="./data/experiment2/Audio/75.wav" type="audio/wav">Your browser does not support the audio element.</audio> |
-| sample 2  | <img src="./data/experiment2/Gaussian/100.png" alt="flowtron_0.0" style="zoom: 40%;" /> | <img src="./data/experiment2/Mel-spectrogram/100.png" alt="flowtron_0.0" style="zoom: 80%;" /> | <audio controls><source src="./data/experiment2/Audio/100.wav" type="audio/wav">Your browser does not support the audio element.</audio> |
+| sample 1  | <img src="./data/experiment2/Gaussian/0.png" alt="flowtron_0.0" style="zoom: 40%;" /> | <img src="./data/experiment2/Mel-spectrogram/0.png" alt="flowtron_0.0" style="zoom: 40%;" /> | <audio controls><source src="./data/experiment2/Audio/0.wav" type="audio/wav">Your browser does not support the audio element.</audio> |
+| step = 25 | <img src="./data/experiment2/Gaussian/25.png" alt="flowtron_0.0" style="zoom: 40%;" /> | <img src="./data/experiment2/Mel-spectrogram/25.png" alt="flowtron_0.0" style="zoom: 40%;" /> | <audio controls><source src="./data/experiment2/Audio/25.wav" type="audio/wav">Your browser does not support the audio element.</audio> |
+| step = 75 | <img src="./data/experiment2/Gaussian/75.png" alt="flowtron_0.0" style="zoom: 40%;" /> | <img src="./data/experiment2/Mel-spectrogram/75.png" alt="flowtron_0.0" style="zoom: 40%;" /> | <audio controls><source src="./data/experiment2/Audio/75.wav" type="audio/wav">Your browser does not support the audio element.</audio> |
+| sample 2  | <img src="./data/experiment2/Gaussian/100.png" alt="flowtron_0.0" style="zoom: 40%;" /> | <img src="./data/experiment2/Mel-spectrogram/100.png" alt="flowtron_0.0" style="zoom: 40%;" /> | <audio controls><source src="./data/experiment2/Audio/100.wav" type="audio/wav">Your browser does not support the audio element.</audio> |
 
 
 
