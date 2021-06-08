@@ -1,5 +1,4 @@
-title: 基于自回归流的文本到语音合成网络
-description: 展示网页
-show_downloads: true
+title: an Autoregressive Flow-based Generative Network for Text-to-Speech Synthesis
+description: Demo page
 google_analytics:
 theme: jekyll-theme-slate
