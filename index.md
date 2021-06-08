@@ -30,8 +30,8 @@
 
 ## 样本间插值实验
 
-|   Case    |                           Gaussian                           |                       Mel-spectrogram                        | Audio                                                        |
-| :-------: | :----------------------------------------------------------: | :----------------------------------------------------------: | ------------------------------------------------------------ |
+|   Case    |                           Gaussian                           |                       Mel-spectrogram                        |                            Audio                             |
+| :-------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
 | sample 1  | <img src="./data/experiment2/Gaussian/0.png" alt="flowtron_0.0" style="zoom: 40%;" /> | <img src="./data/experiment2/Mel-spectrogram/0.png" alt="flowtron_0.0" style="zoom: 40%;" /> | <audio controls><source src="./data/experiment2/Audio/0.wav" type="audio/wav">Your browser does not support the audio element.</audio> |
 | step = 25 | <img src="./data/experiment2/Gaussian/25.png" alt="flowtron_0.0" style="zoom: 40%;" /> | <img src="./data/experiment2/Mel-spectrogram/25.png" alt="flowtron_0.0" style="zoom: 40%;" /> | <audio controls><source src="./data/experiment2/Audio/25.wav" type="audio/wav">Your browser does not support the audio element.</audio> |
 | step = 75 | <img src="./data/experiment2/Gaussian/75.png" alt="flowtron_0.0" style="zoom: 40%;" /> | <img src="./data/experiment2/Mel-spectrogram/75.png" alt="flowtron_0.0" style="zoom: 40%;" /> | <audio controls><source src="./data/experiment2/Audio/75.wav" type="audio/wav">Your browser does not support the audio element.</audio> |
