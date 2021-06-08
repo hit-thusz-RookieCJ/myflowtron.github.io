@@ -1,62 +1,15 @@
----
-layout: default
----
+## 语音变化程度控制对比实验
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
 
-[Link to another page](./another-page.html).
 
-There should be whitespace between paragraphs.
+### 合成样例展示
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
-
-# Header 1
-
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
-
-## Header 2
-
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
-
-### Header 3
-
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
-
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
-
-#### Header 4
-
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### Header 6
-
-| head1        | head two          | three |
-| :----------- | :---------------- | :---- |
-| ok           | good swedish fish |       |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
+| Model     |          Condition          | Audio                                                        | Mel-spectrogram                                              |
+| :-------- | :-------------------------: | :----------------------------------------------------------- | ------------------------------------------------------------ |
+| Flowtron  |       $\sigma = 0.0$        | <audio controls><source src="./data/experiment1/Audio/flowtron_0.0.wav" type="audio/wav">Your browser does not support the audio element.</audio> | ![flowtron_0.0](./data/experiment1/Mel-spectrogram/Flowtron_0.0.png) |
+| Flowtron  |       $\sigma = 0.5$        | <audio controls><source src="./data/experiment1/Audio/flowtron_0.5.wav" type="audio/wav">Your browser does not support the audio element.</audio> |                                                              |
+| Flowtron  |       $\sigma = 1.0$        | <audio controls><source src="./data/experiment1/Audio/flowtron_1.0.wav" type="audio/wav">Your browser does not support the audio element.</audio> |                                                              |
+| Tacotron2 | $p \in \{0.45,0.5,0.55 \} $ | <audio controls><source src="./data/experiment1/Audio/tacotron2.wav" type="audio/wav">Your browser does not support the audio element.</audio> |                                                              |
 
 ### There's a horizontal rule below this.
 
@@ -64,7 +17,7 @@ end
 
 ### Here is an unordered list:
 
-*   Item foo
+*   Item foo 
 *   Item bar
 *   Item baz
 *   Item zip
