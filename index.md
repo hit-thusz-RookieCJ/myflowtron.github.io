@@ -55,6 +55,6 @@
 | :--------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
 |        参考音频        | **<img src="./data/experiment3/Image/0.png" alt="flowtron_0.0" style="zoom: 50%;" />** | <audio controls><source src="./data/experiment3/Audio/reference.wav" type="audio/wav">Your browser does not support the audio element.</audio> |
 | Flowtron随机采样的语音 | **<img src="./data/experiment3/Image/1.png" alt="flowtron_0.0" style="zoom: 50%;" />** | <audio controls><source src="./data/experiment3/Audio/normal.wav" type="audio/wav">Your browser does not support the audio element.</audio> |
-| Flowtron风格转换的语音 | **<img src="./data/experiment3/Image/2.png" alt="flowtron_0.0" style="zoom: 50%;" />** | <audio controls><source src="./data/experiment3/Audio/transfer.wav" type="audio/wav">Your browser does not support the audio element.</audio> |
-|   GSTs风格转换的语音   | **<img src="./data/experiment3/Image/4.png" alt="flowtron_0.0" style="zoom: 25%;" />** | <audio controls><source src="./data/experiment3/Audio/GST_Tacotron.wav" type="audio/wav">Your browser does not support the audio element.</audio> |
+| Flowtron风格转换的语音 | **<img src="./data/experiment3/Image/2.png" alt="flowtron_0.0" style="zoom: 50%;" />** | <audio controls><source src="./data/experiment3/Audio/GST_Tacotron.wav" type="audio/wav">Your browser does not support the audio element.</audio> |
+|   GSTs风格转换的语音   | **<img src="./data/experiment3/Image/4.png" alt="flowtron_0.0" style="zoom: 25%;" />** | <audio controls><source src="./data/experiment3/Audio/transfer.wav" type="audio/wav">Your browser does not support the audio element.</audio> |
 
